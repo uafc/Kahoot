@@ -3,7 +3,7 @@ import requests
 
 def scrape_questions_and_answers():
     questions_dict = {}  # Using a dictionary for questions and answers
-    url = "https://abinandn1.github.io/UAFCKahoot/"
+    url = "https://uafc.github.io/scrape-me/"
     response = requests.get(url)
     
     #check if scraping is allowed 
