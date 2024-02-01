@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 def scrape_questions_and_answers():
-    dict = {}  # Using a dictionary for questions and answers
+    questions_dict = {}  # Using a dictionary for questions and answers
     url = ""
     response = requests.get(url)
     
